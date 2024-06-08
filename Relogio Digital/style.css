@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --white: var(#fff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: lightblue;
+  margin: 1rem auto;
+  height: 100vh;
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: darkblue;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.relogio {
+  text-align: center;
+}
+.visor {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 3rem;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.5rem;
+  margin: 2rem 0;
+}
+.visor__local {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
